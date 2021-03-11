@@ -1,14 +1,10 @@
-section  {
-    background-color: lightpink;
-    height: 500px;
-    border: solid black 1px;
-  
-}
-
-body 
-{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+}
+
+section {
+    background-color: white;
 }
 
 .hero {
@@ -18,10 +14,11 @@ body
     font-size: 40px;
 }
 
-footer 
-{
-    height: 500px;
+footer {
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -39,20 +36,30 @@ ul {
 
 li {
     text-decoration: none;
-    width: 200px;
 }
 
-h1 
-{
+h1 {
     font-size: 90px;
     margin: 0;
 }
 
-p 
-{
+
+p {
     margin: 0;
-    font-weight: 300;
     font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-text {
@@ -60,50 +67,69 @@ p
     margin-bottom: 200px;
 }
 
-.button 
-{
+.button {
     width: 200px;
-    height: 60px;
-    background-color: orange;
+    height: 55px;
     border-radius: 30px;
+    background-color: coral;
     text-align: center;
-    font-weight: 300;
     font-size: 30px;
+    font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
 }
 
-.button:hover 
-{
+.button:hover {
     background-color: #ef744b;
 }
 
-.button:active 
-{
+.button:active {
     background-color: #A9A9A9;
     color: #808080;
 }
 
-.hero-area {
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+.social {
+    margin: 20px;
+}
+
+.sub-section 
+{
     display: flex;
-    height: 100%;
-    justify-content: space-between;
-    /* align-items: center; */
+    justify-content: space-around;
+    padding: 80px;
+}
+
+h2 
+{
+    font-size: 70px;
+}
+
+.headshot 
+{
+    width: 170px;
+    border-radius: 180px;
+    height: 170px;
+}
+
+.headshot-container 
+{
+    display: flex;
     align-items: center;
 }
 
-.socials
+/* @media(min-width: 400px)
 {
- padding-bottom: 200px;
- 
-}
-
-.logo 
-{
-    height: 80px;
-}
-
-.social 
-{
-    margin: 10px;
-}
+    h1
+    {
+        font-size: 40px;
+    }
+    
+} */
