@@ -34,6 +34,8 @@ ul {
     font-size: 30px;
 }
 
+
+
 li {
     text-decoration: none;
 }
@@ -186,6 +188,57 @@ a
 
 }
 
+.hamburger 
+{
+    display: none;
+}
+
+.hamburger:focus
+{
+    outline: 0;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    .hamburger 
+{
+    border: 0;
+    background-color:transparent;
+    color: white;
+    font-size: 30px;
+    display: block;
+    margin: 20px;
+    align-self: flex-end;
+}
+
+ ul 
+ {
+     display: none;
+     background-color: #2b2c38;
+     margin: 0px;
+ }
+
+ nav
+ {
+     display: flex;
+     flex-direction: column-reverse;
+     background-color: #2b2c38;
+ }
+
+ .logo
+ {
+     display: none;
+ }
+
+    ul.show 
+    {
+        display: block;
+    }
+}
+
+
+
 @media only screen and (max-width: 1000px)
 {
     .project-container 
@@ -194,6 +247,8 @@ a
         flex-wrap: wrap;
     }
 }
+
+
 /* @media(min-width: 400px)
 {
     h1
